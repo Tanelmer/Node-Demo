@@ -8,7 +8,7 @@
 //以下 new 这种方式已经被旧版本node 废弃了
 //new Buffer(siez); 创建buffer对象 为之分配一个内存空间，长度固定，无法更改
 //new Buffer(array);
-new Buffer(buffer)
+// new Buffer(buffer)
 var bf = new Buffer(5);
 console.log(bf); //<Buffer 75 63 74 42 79>
 bf[1] = 2;
